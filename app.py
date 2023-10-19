@@ -8,7 +8,7 @@ st.title("¡Digame!")
 st.markdown("![snoopy flipping through a book](https://media.giphy.com/media/9X6OGGZ2SNyQ8/giphy.gif)")
 
 # Load the data backing this app
-file = r"C:\Users\c17527k\Desktop\dictionary_list.csv"  
+file = r"C:\Users\folder\file.csv"  
 df = pd.read_csv(file, encoding='unicode_escape') 
 
 # Create a text input field for the user to enter an acronym 
